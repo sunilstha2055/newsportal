@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- bl-header -->
+    <div class="bl-header">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-sm-12 bl-image-container">
+                    <a href="">
+                        <img src="./assets/image/bl.gif" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page-header -->
+    <header class="page-header">
+        <section class="select-language-section bg-site-color d-block d-sm-none" style="transition: max-height 1s;">
+            <select class="form-control form-control-sm bg-transparent border-0 text-white " name="language" id="">
+                 <option class="bg-site-color border-0" value="1">नेपाली</option>
+                 <option class="bg-site-color border-0" value="1">English</option>
+                 <option class="bg-site-color border-0" value="1">Hindi</option>
+            </select>
+       </section>
+        <div class="header-top d-none d-sm-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8  header-top-left d-flex">
+                        <div class="scroll-header">
+                            <h4>अन्य संस्करण</h4>
+                        </div>
+                        <div class="scroll-content">
+                            <ul class="d-flex" style="align-items:center">
+                                <li><a href="/">नेपाली</a></li>
+                                <li><a href="/">English</a></li>
+                                <li><a href="/">Hindi</a></li>
+                                <li><a href="/">Espanol</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12 col-md-4 col-lg-4 col-xl-4 header-top-right d-flex">
+                        <div class="header-search-icon d-flex">
+                            <button class="btn btn-outline-light border-0 rounded-0 search-button" type="button" data-toggle="collapse" data-target="#searchDropdown" aria-expanded="true" aria-controls="searchDropdown"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid collapse " id="searchDropdown">
+            <div class="card card-body border-0 rounded-0 searchBody">
+                 <form action="#" method="">
+                      <div class="form-row">
+                           <div class="col-10">
+                                <input type="text" class="form-control" name="search" placeholder="यहाँ टाईप गर्नुहोस्...">
+                           </div>
+                           <div class="col-2">
+                                <button class="btn bg-secondary btn-block btn-sm text-white">
+                                     <div class="fa fa-search"></div>
+                                </button>
+                           </div>
+                      </div>
+                 </form>
+            </div>
+       </div>
+        <div class="header-end">
+            <div class="container-fluid" style="border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;">
+                <div class="row">
+                    <div class="col-sm-12 col-md-10">
+                        <nav class="navbar navbar-expand-lg navbar-light primary-nav navbar_fixed p-0 sticky-top" id="stickyAM">
+                            <a class="navbar-brand" href="#"> <img style="width: 40px;" class="responsive-img"
+                                    id="logo_image_nav" src="./assets/image/logo.png" alt="BL Media"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="true" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+
+                                    <li class="nav-item ">
+                                        <a href="#k" class="nav-link" style="padding:.8em 1.2em!important">
+                                            <nobr>
+                                                ब्रेक
+                                            </nobr>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link" style="padding:.8em 1.2em!important">
+                                            <nobr>
+                                                बिएल विशेष
+                                            </nobr>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link" style="padding:.8em 1.2em!important">
+                                            <nobr>
+                                                ब्राण्ड स्टोरी
+                                            </nobr>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link" style="padding:.8em 1.2em!important">
+                                            <nobr>
+                                                समाज
+                                            </nobr>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link" style="padding:.8em 1.2em!important">
+                                            <nobr>
+                                                राजनीति
+                                            </nobr>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#8" class="nav-link" style="padding:.8em 1.2em!important">
+                                            <nobr>
+                                                खेल
+                                            </nobr>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link" style="padding:.8em 1.2em!important">
+                                            <nobr>
+                                                विचार/विश्लेषण
+                                            </nobr>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link" style="padding:.8em 1.2em!important">
+                                            <nobr>
+                                                अर्थ
+                                            </nobr>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="#" class="nav-link" style="padding:.8em 1.2em!important">
+                                            <nobr>
+                                                कला
+                                            </nobr>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+
+
+                    </div>
+                    <div class="col-sm-12 col-md-2">
+                        <ul class="d-flex">
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- banner -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 image-container mt-3 mb-3">
+                <a href="/">
+                    <img width="100%" style="max-height:6em;" src="./assets/image/banner.gif" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- page-body -->
+    <div class="page-body">
+        <div class="container-fluid">
+            <section class="row">
+                <div class="com-sm-12 col-md-3">
+                    <div class="news-block">
+                        <div class="block-header">
+                            <h2><a href="#"> लिंक</a></h2>
+                        </div>
+                        <div class="block-body">
+                            <div class="news-item d-flex">
+                                <figure class="news-image">
+                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                </figure>
+                                <div class="news-content">
+                                    <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको
+                                            तीन अन्तरदृष्टि</a>
+                                    </h5>
+                                    <div>
+                                        <a class="news-author" href="#">देशसञ्चार - काठमाडाै‌ं</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-item d-flex">
+                                <figure class="news-image">
+                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                </figure>
+                                <div class="news-content">
+                                    <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको
+                                            तीन अन्तरदृष्टि</a>
+                                    </h5>
+                                    <div>
+                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-item d-flex">
+                                <figure class="news-image">
+                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                </figure>
+                                <div class="news-content">
+                                    <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको
+                                            तीन अन्तरदृष्टि</a>
+                                    </h5>
+                                    <div>
+                                        <a href="#" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-item d-flex">
+                                <figure class="news-image">
+                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                </figure>
+                                <div class="news-content">
+                                    <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको
+                                            तीन अन्तरदृष्टि</a>
+                                    </h5>
+                                    <div>
+                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-item d-flex">
+                                <figure class="news-image">
+                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                </figure>
+                                <div class="news-content">
+                                    <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको
+                                            तीन अन्तरदृष्टि</a>
+                                    </h5>
+                                    <div>
+                                        <a href="#" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-item d-flex">
+                                <figure class="news-image">
+                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                </figure>
+                                <div class="news-content">
+                                    <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको
+                                            तीन अन्तरदृष्टि</a>
+                                    </h5>
+                                    <div>
+                                        <a href="#" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-item d-flex">
+                                <figure class="news-image">
+                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                </figure>
+                                <div class="news-content">
+                                    <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको
+                                            तीन अन्तरदृष्टि</a>
+                                    </h5>
+                                    <div class="news-loc">
+                                        <a href="#" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="block-header">
+                        <h2><a href="#"> एंकर</a></h2>
+                    </div>
+                    <div class="block-body">
+                        <div class="news-item">
+                            <div class="feature-img">
+                                <figure>
+                                    <a href="">
+                                        <img width="100%" src="./assets/image/hig.png" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="news-content">
+                                <h5><a href="#" class="news-title">प्याराग्लाइडिङ बनाउने मेरो अधुरो सपना
+                                        (भिडियाेसहित)</a></h5>
+                                <p>वाइडेनले यहाँ शक्ति र लाभ प्राप्तिका लागि झुट पनि बोलिने गरेको टिप्पणी गरे।
+                                    पूर्वराष्ट्रपति डोनाल्ड ट्रम्पले गत नोभेम्बरमा सम्पन्न राष्ट्रपतिको चुनावमा धाँधली
+                                    भएको आरोप लगाएका थिए। नतिजा रद्दको माग गर्दै अदालतमा मुद्दासमेत हालेका थिए। तर
+                                    अन्ततः उनको कुरा झुटो साबित भयो।</p>
+                            </div>
+                        </div>
+                        <div class="news-item d-flex">
+                            <figure class="news-image">
+                                <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                            </figure>
+                            <div class="news-content">
+                                <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको तीन
+                                        अन्तरदृष्टि</a></h5>
+                                <div class="news-loc">
+                                    <span>देशसञ्चार - काठमाडाै‌ं</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item d-flex">
+                            <figure class="news-image">
+                                <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                            </figure>
+                            <div class="news-content">
+                                <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको तीन
+                                        अन्तरदृष्टि</a></h5>
+                                <div class="">
+                                    <a class="news-author" href="/">देशसञ्चार - काठमाडाै‌ं</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <div class="block-header">
+                        <h2><a href="#"> बिएल विशेष</a></h2>
+                    </div>
+                    <div class="block-body" style="background: #ffdfd0; padding: 10px;">
+                        <div class="news-item d-flex">
+                            <figure class="news-image">
+                                <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                            </figure>
+                            <div class="news-content">
+                                <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको तीन
+                                        अन्तरदृष्टि</a></h5>
+                                <div>
+                                    <a href="#" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item d-flex">
+                            <figure class="news-image">
+                                <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                            </figure>
+                            <div class="news-content">
+                                <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको तीन
+                                        अन्तरदृष्टि</a></h5>
+                                <div>
+                                    <a href="#" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item d-flex">
+                            <figure class="news-image">
+                                <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                            </figure>
+                            <div class="news-content">
+                                <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको तीन
+                                        अन्तरदृष्टि</a></h5>
+                                <div>
+                                    <a href="#" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-item d-flex">
+                            <figure class="news-image">
+                                <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                            </figure>
+                            <div class="news-content">
+                                <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान गरेको तीन
+                                        अन्तरदृष्टि</a></h5>
+                                <div>
+                                    <a href="#" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- bal banner -->
+                    <div class="bal-banner">
+                        <a href="#">
+                            <img width="100%" src="./assets/image/banner8.gif" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="brand-story">
+                <div class="container-fluid">
+                    <div class="block-header">
+                        <h2>
+                            <a href="#">ब्राण्ड स्टोरी</a>
+                        </h2>
+                    </div>
+                    <div class="block-body">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-3">
+                                <div class="feature-img">
+                                    <figure>
+                                        <a href="#">
+                                            <img width="100%" src="./assets/image/b.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="news-content">
+                                    <h5><a href="#" class="news-title">प्याराग्लाइडिङ बनाउने मेरो अधुरो सपना
+                                        (भिडियाेसहित)</a></h5>
+                                <p class="news-summary">वाइडेनले यहाँ शक्ति र लाभ प्राप्तिका लागि झुट पनि बोलिने
+                                    गरेको टिप्पणी गरे।
+                                </p>
+                                </div>
+                                <div class="feature-img">
+                                    <figure>
+                                        <a href="#">
+                                            <img width="100%" src="./assets/image/b.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="news-content">
+                                    <h5><a href="#" class="news-title">प्याराग्लाइडिङ बनाउने मेरो अधुरो सपना
+                                        (भिडियाेसहित)</a></h5>
+                                <p class="news-summary">वाइडेनले यहाँ शक्ति र लाभ प्राप्तिका लागि झुट पनि बोलिने
+                                    गरेको टिप्पणी गरे।
+                                </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="brand-middle">
+                                    <div class="feature-img">
+                                        <figure>
+                                            <a href="#">
+                                                <img width="100%" src="./assets/image/b.jpg" alt="">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="news-content">
+                                        <h5><a href="#" class="news-title">प्याराग्लाइडिङ बनाउने मेरो अधुरो सपना
+                                            (भिडियाेसहित)</a></h5>
+                                    <p class="news-summary">पर्यटकीय गन्तव्य बन्नुमा प्राकृतिक भ्यू टावर मात्र भएर होइन, बेलढुङ्गाबाट आँखै अगाडि देखिने दर्जन बढी हिमशृृङ्खला, हराभरा वनजङ्गलको मनोरम दृश्य यसको प्रमुख आर्कषण हो । म्याग्दी जिल्लाको सिमानाले समेतपर्यटकीय गन्तव्य बन्नुमा प्राकृतिक भ्यू टावर मात्र भएर होइन, बेलढुङ्गाबाट आँखै अगाडि देखिने दर्जन बढी हिमशृृङ्खला, हराभरा वनजङ्गलको मनोरम दृश्य यसको प्रमुख आर्कषण हो । म्याग्दी जिल्लाको सिमानाले समेत
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <div class="feature-img">
+                                    <figure>
+                                        <a href="#">
+                                            <img width="100%" src="./assets/image/b.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="news-content">
+                                    <h5><a href="#" class="news-title">प्याराग्लाइडिङ बनाउने मेरो अधुरो सपना
+                                        (भिडियाेसहित)</a></h5>
+                                <p class="news-summary">वाइडेनले यहाँ शक्ति र लाभ प्राप्तिका लागि झुट पनि बोलिने
+                                    गरेको टिप्पणी गरे।
+                                </p>
+                                </div>
+                                <div class="feature-img">
+                                    <figure>
+                                        <a href="#">
+                                            <img width="100%" src="./assets/image/b.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="news-content">
+                                    <h5><a href="#" class="news-title">प्याराग्लाइडिङ बनाउने मेरो अधुरो सपना
+                                        (भिडियाेसहित)</a></h5>
+                                <p class="news-summary">वाइडेनले यहाँ शक्ति र लाभ प्राप्तिका लागि झुट पनि बोलिने
+                                    गरेको टिप्पणी गरे।
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class=" break">
+                <div class="container-fluid">
+                    <div class="block-header">
+                        <h2><a href="#"> ब्रेक</a></h2>
+                    </div>
+                    <div class="block-body">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4">
+
+                                <div class="feature-img">
+                                    <figure>
+                                        <a href="">
+                                            <img width="100%" src="./assets/image/hig.png" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="news-content">
+                                    <h5><a href="#" class="news-title">प्याराग्लाइडिङ बनाउने मेरो अधुरो सपना
+                                            (भिडियाेसहित)</a></h5>
+                                    <p class="news-summary">पर्यटकीय गन्तव्य बन्नुमा प्राकृतिक भ्यू टावर मात्र भएर होइन, बेलढुङ्गाबाट आँखै अगाडि देखिने दर्जन बढी हिमशृृङ्खला, हराभरा वनजङ्गलको मनोरम दृश्य यसको प्रमुख आर्कषण हो । म्याग्दी जिल्लाको सिमानाले समेतछोएको बेलढुङ्गाबाट एकाबिहानै खुलेका दन्ते लहर हिमाल र सूर्याेदयले आन्तरिक पर्यटकलाई निकै लोभ्याउने गरेको छ । समुद्री सतहदेखि दुई हजार ६०० मिटरको उचाइमा रहेको बेलढुङ्गा आफैमा प्राकृतिक भ्यू टावर हो । यहाँबाट देखिने हिमशृङ्खला, बागलुङ म्याग्दीका दर्जनांै गाउँ, हराभरा रहेका वनजङ्गल
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="#"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="#" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="#"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="#" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-2">
+                                <div class="break-bannner">
+                                    <a href="#">
+                                        <img width="100%"  src="./assets/image/banner8.gif" alt="">
+                                    </a>
+                                </div>
+                                <div class="break-bannner">
+                                    <a href="#">
+                                        <img width="100%" style="padding-top: 20px;" src="./assets/image/banner7.gif" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="video-report">
+                <div class="container-fluid">
+                    <div class="block-header">
+                        <h2><a href="#"> भिडियो रिपोर्ट</a></h2>
+                    </div>
+                    <div class="block-body">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-8">
+                                <div class="card">
+                                    <img width="100%"  src="./assets/image/BS.jpg" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="#" class="news-title"> लागुऔषध कारोबारी गिरोहको कनेक्सन
+                                                काठमाडौंदेखि झापासम्म (भिडियाे)</a>
+                                            <br>
+                                            <a href="#" class="news-author">डिल्ली पाण्डे - काठमाडाै‌ं</a>
+                                        </h5>
+                                        <p class="news-summary">पर्यटकीय गन्तव्य बन्नुमा प्राकृतिक भ्यू टावर मात्र भएर होइन, बेलढुङ्गाबाट आँखै अगाडि देखिने दर्जन बढी हिमशृृङ्खला, हराभरा वनजङ्गलको मनोरम दृश्य यसको प्रमुख आर्कषण हो । म्याग्दी जिल्लाको सिमानाले समेतछोएको बेलढुङ्गाबाट एकाबिहानै खुलेका दन्ते लहर हिमाल र सूर्याेदयले आन्तरिक पर्यटकलाई निकै लोभ्याउने गरेको छ । समुद्री सतहदेखि दुई हजार ६०० मिटरको उचाइमा रहेको बेलढुङ्गा आफैमा प्राकृतिक भ्यू टावर हो । यहाँबाट देखिने हिमशृङ्खला, बागलुङ म्याग्दीका दर्जनांै गाउँ, हराभरा रहेका वनजङ्गल</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="card">
+                                    <img width="100%" src="./assets/image/BS.jpg" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="#" class="news-title"> लागुऔषध कारोबारी गिरोहको कनेक्सन
+                                                काठमाडौंदेखि झापासम्म (भिडियाे)</a>
+                                            <br>
+                                            <a href="#" class="news-author">डिल्ली पाण्डे - काठमाडाै‌ं</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <img width="100%" src="./assets/image/BS.jpg" alt="">
+                                    <div class="card-body">
+                                        <h5 class="card-title">
+                                            <a href="#" class="news-title"> लागुऔषध कारोबारी गिरोहको कनेक्सन
+                                                काठमाडौंदेखि झापासम्म (भिडियाे)</a>
+                                            <br>
+                                            <a href="#" class="news-author">डिल्ली पाण्डे - काठमाडाै‌ं</a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="samachar">
+                <div class="container-fluid">
+                    <div class="block-header">
+                        <h2><a href="#">समाचार</a></h2>
+                    </div>
+                    <div class="block-body">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-3">
+
+                                <div class="feature-img">
+                                    <figure>
+                                        <a href="">
+                                            <img width="100%" src="./assets/image/hig.png" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+
+                                <h5><a href="#" class="news-title">हिमाल र सूर्योदय हेर्न बेलढुङ्गा</a></h5>
+
+                                <a href="#" class="news-author">डिल्ली पाण्डे - काठमाडाै‌ं</a>
+                                <p class="news-summary">पर्यटकीय गन्तव्य बन्नुमा प्राकृतिक भ्यू टावर मात्र भएर होइन,
+                                    बेलढुङ्गाबाट आँखै अगाडि देखिने दर्जन बढी हिमशृृङ्खला, हराभरा वनजङ्गलको
+                                    मनोरम दृश्य यसको प्रमुख आर्कषण हो ।
+                                    म्याग्दी जिल्लाको सिमानाले समेत छोएको बेलढुङ्गाबाट एकाबिहानै खुलेका
+                                    दन्ते लहर हिमाल र सूर्याेदयले आन्तरिक पर्यटकलाई निकै लोभ्याउने गरेको छ ।
+                                    समुद्री सतहदेखि दुई हजार ६०० मिटरको उचाइमा रहेको बेलढुङ्गा आफैमा
+                                    प्राकृतिक भ्यू टावर हो । यहाँबाट देखिने हिमशृङ्खला, बागलुङ म्याग्दीका
+                                    दर्जनांै गाउँ, हराभरा रहेका वनजङ्गल डाँडाकाँडासहितको मनोरम दृश्य अनि
+                                    सूर्योदय र सूर्यास्तले त्यहाँ पुग्नेलाई आहा भन्न बाध्य तुल्याउछ ।
+                                </p>
+
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author"> देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-12 col-md-3">
+
+                                <div class="feature-img">
+                                    <figure>
+                                        <a href="">
+                                            <img width="100%" src="./assets/image/hig.png" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+
+                                <h5><a href="#" class="news-title">हिमाल र सूर्योदय हेर्न बेलढुङ्गा</a></h5>
+
+                                <a href="#" class="news-author">डिल्ली पाण्डे - काठमाडाै‌ं</a>
+                                <p class="news-summary">पर्यटकीय गन्तव्य बन्नुमा प्राकृतिक भ्यू टावर मात्र भएर होइन,
+                                    बेलढुङ्गाबाट आँखै अगाडि देखिने दर्जन बढी हिमशृृङ्खला, हराभरा वनजङ्गलको
+                                    मनोरम दृश्य यसको प्रमुख आर्कषण हो ।
+                                    म्याग्दी जिल्लाको सिमानाले समेत छोएको बेलढुङ्गाबाट एकाबिहानै खुलेका
+                                    दन्ते लहर हिमाल र सूर्याेदयले आन्तरिक पर्यटकलाई निकै लोभ्याउने गरेको छ ।
+                                    समुद्री सतहदेखि दुई हजार ६०० मिटरको उचाइमा रहेको बेलढुङ्गा आफैमा
+                                    प्राकृतिक भ्यू टावर हो । यहाँबाट देखिने हिमशृङ्खला, बागलुङ म्याग्दीका
+                                    दर्जनांै गाउँ, हराभरा रहेका वनजङ्गल डाँडाकाँडासहितको मनोरम दृश्य अनि
+                                    सूर्योदय र सूर्यास्तले त्यहाँ पुग्नेलाई आहा भन्न बाध्य तुल्याउछ ।
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- banner -->
+    
+        <div class="row">
+            <div class="col-sm-12 image-container mt-3 mb-3">
+                <a href="/">
+                    <img width="100%" style="max-height:6em;" src="./assets/image/banner.gif" alt=""></a>
+            </div>
+        </div>
+    
+            <section class="artha">
+                <div class="container-fluid">
+                    <div class="block-header">
+                        <h2><a href="#">अर्थ</a></h2>
+                    </div>
+                    <div class="block-body">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+
+                                <div class="feature-img">
+                                    <figure>
+                                        <a href="">
+                                            <img width="100%" src="./assets/image/hig.png" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+
+                                <h5><a href="#" class="news-title">हिमाल र सूर्योदय हेर्न बेलढुङ्गा</a></h5>
+
+                                <a href="#" class="news-author">डिल्ली पाण्डे - काठमाडाै‌ं</a>
+                                <p class="news-summary">पर्यटकीय गन्तव्य बन्नुमा प्राकृतिक भ्यू टावर मात्र भएर होइन,
+                                    बेलढुङ्गाबाट आँखै अगाडि देखिने दर्जन बढी हिमशृृङ्खला, हराभरा वनजङ्गलको
+                                    मनोरम दृश्य यसको प्रमुख आर्कषण हो ।
+                                    म्याग्दी जिल्लाको सिमानाले समेत छोएको बेलढुङ्गाबाट एकाबिहानै खुलेका
+                                    दन्ते लहर हिमाल र सूर्याेदयले आन्तरिक पर्यटकलाई निकै लोभ्याउने गरेको छ ।
+                                    समुद्री सतहदेखि दुई हजार ६०० मिटरको उचाइमा रहेको बेलढुङ्गा आफैमा
+                                    प्राकृतिक भ्यू टावर हो । यहाँबाट देखिने हिमशृङ्खला, बागलुङ म्याग्दीका
+                                    दर्जनांै गाउँ, हराभरा रहेका वनजङ्गल डाँडाकाँडासहितको मनोरम दृश्य अनि
+                                    सूर्योदय र सूर्यास्तले त्यहाँ पुग्नेलाई आहा भन्न बाध्य तुल्याउछ ।
+                                </p>
+
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item d-flex">
+                                    <figure class="news-image">
+                                        <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                    </figure>
+                                    <div class="news-content">
+                                        <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                गरेको तीन
+                                                अन्तरदृष्टि</a></h5>
+                                        <div>
+                                            <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="kala">
+                <div class="container-fluid">
+                    <div class="block-header">
+                        <h2><a href="#">कला</a></h2>
+                    </div>
+                    <div class="block-body">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+
+                                <div class="feature-img">
+                                    <figure>
+                                        <a href="">
+                                            <img width="100%" src="./assets/image/artha.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+
+                                <h5><a href="#" class="news-title">हिमाल र सूर्योदय हेर्न बेलढुङ्गा</a></h5>
+
+                                <a href="#" class="news-author">डिल्ली पाण्डे - काठमाडाै‌ं</a>
+                                <p class="news-summary">पर्यटकीय गन्तव्य बन्नुमा प्राकृतिक भ्यू टावर मात्र भएर होइन,
+                                    बेलढुङ्गाबाट आँखै अगाडि देखिने दर्जन बढी हिमशृृङ्खला, हराभरा वनजङ्गलको
+                                    मनोरम दृश्य यसको प्रमुख आर्कषण हो ।
+                                    म्याग्दी जिल्लाको सिमानाले समेत छोएको बेलढुङ्गाबाट एकाबिहानै खुलेका
+                                    दन्ते लहर हिमाल र सूर्याेदयले आन्तरिक पर्यटकलाई निकै लोभ्याउने गरेको छ ।
+                                    समुद्री सतहदेखि दुई हजार ६०० मिटरको उचाइमा रहेको बेलढुङ्गा आफैमा
+                                    प्राकृतिक भ्यू टावर हो । यहाँबाट देखिने हिमशृङ्खला, बागलुङ म्याग्दीका
+                                    दर्जनांै गाउँ, हराभरा रहेका वनजङ्गल डाँडाकाँडासहितको मनोरम दृश्य अनि
+                                    सूर्योदय र सूर्यास्तले त्यहाँ पुग्नेलाई आहा भन्न बाध्य तुल्याउछ ।
+                                </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <img height="200px" src="./assets/image/b.jpg" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <a href="#" class="news-title"> लागुऔषध कारोबारी गिरोहको कनेक्सन
+                                                        काठमाडौंदेखि झापासम्म (भिडियाे)</a>
+
+
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <img height="200px" src="./assets/image/b.jpg" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <a href="#" class="news-title"> लागुऔषध कारोबारी गिरोहको कनेक्सन
+                                                        काठमाडौंदेखि झापासम्म (भिडियाे)</a>
+
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <img height="200px" src="./assets/image/b.jpg" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <a href="#" class="news-title"> लागुऔषध कारोबारी गिरोहको कनेक्सन
+                                                        काठमाडौंदेखि झापासम्म (भिडियाे)</a>
+
+
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <div class="card">
+                                            <img height="200px" src="./assets/image/b.jpg" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">
+                                                    <a href="#" class="news-title"> लागुऔषध कारोबारी गिरोहको कनेक्सन
+                                                        काठमाडौंदेखि झापासम्म (भिडियाे)</a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="khel">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-9">
+                            <div>
+                                <div class="block-header">
+                                    <h2><a href="#">खेल</a></h2>
+                                </div>
+                                <div class="block-body">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-4">
+
+                                            <div class="feature-img">
+                                                <figure>
+                                                    <a href="">
+                                                        <img width="100%" src="./assets/image/hig.png" alt="">
+                                                    </a>
+                                                </figure>
+                                            </div>
+
+                                            <h5><a href="#" class="news-title">हिमाल र सूर्योदय हेर्न बेलढुङ्गा</a></h5>
+
+                                            <a href="#" class="news-author">डिल्ली पाण्डे - काठमाडाै‌ं</a>
+                                            <p class="news-summary">पर्यटकीय गन्तव्य बन्नुमा प्राकृतिक भ्यू टावर मात्र
+                                                भएर होइन,
+                                                बेलढुङ्गाबाट आँखै अगाडि देखिने दर्जन बढी हिमशृृङ्खला, हराभरा वनजङ्गलको
+                                                मनोरम दृश्य यसको प्रमुख आर्कषण हो ।
+                                                म्याग्दी जिल्लाको सिमानाले समेत छोएको बेलढुङ्गाबाट एकाबिहानै खुलेका
+                                                दन्ते लहर हिमाल र सूर्याेदयले आन्तरिक पर्यटकलाई निकै लोभ्याउने गरेको छ ।
+                                                समुद्री सतहदेखि दुई हजार ६०० मिटरको उचाइमा रहेको बेलढुङ्गा आफैमा
+                                                प्राकृतिक भ्यू टावर हो । यहाँबाट देखिने हिमशृङ्खला, बागलुङ म्याग्दीका
+                                                दर्जनांै गाउँ, हराभरा रहेका वनजङ्गल डाँडाकाँडासहितको मनोरम दृश्य अनि
+                                                सूर्योदय र सूर्यास्तले त्यहाँ पुग्नेलाई आहा भन्न बाध्य तुल्याउछ ।
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-12 col-md-4">
+                                            <div class="news-item d-flex">
+                                                <figure class="news-image">
+                                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                                </figure>
+                                                <div class="news-content">
+                                                    <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले
+                                                            प्रदान
+                                                            गरेको तीन
+                                                            अन्तरदृष्टि</a></h5>
+                                                    <div>
+                                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="news-item d-flex">
+                                                <figure class="news-image">
+                                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                                </figure>
+                                                <div class="news-content">
+                                                    <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले
+                                                            प्रदान
+                                                            गरेको तीन
+                                                            अन्तरदृष्टि</a></h5>
+                                                    <div>
+                                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="news-item d-flex">
+                                                <figure class="news-image">
+                                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                                </figure>
+                                                <div class="news-content">
+                                                    <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले
+                                                            प्रदान
+                                                            गरेको तीन
+                                                            अन्तरदृष्टि</a></h5>
+                                                    <div>
+                                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="news-item d-flex">
+                                                <figure class="news-image">
+                                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                                </figure>
+                                                <div class="news-content">
+                                                    <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले
+                                                            प्रदान
+                                                            गरेको तीन
+                                                            अन्तरदृष्टि</a></h5>
+                                                    <div>
+                                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-4">
+                                            <div class="news-item d-flex">
+                                                <figure class="news-image">
+                                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                                </figure>
+                                                <div class="news-content">
+                                                    <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले
+                                                            प्रदान
+                                                            गरेको तीन
+                                                            अन्तरदृष्टि</a></h5>
+                                                    <div>
+                                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="news-item d-flex">
+                                                <figure class="news-image">
+                                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                                </figure>
+                                                <div class="news-content">
+                                                    <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले
+                                                            प्रदान
+                                                            गरेको तीन
+                                                            अन्तरदृष्टि</a></h5>
+                                                    <div>
+                                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="news-item d-flex">
+                                                <figure class="news-image">
+                                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                                </figure>
+                                                <div class="news-content">
+                                                    <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले
+                                                            प्रदान
+                                                            गरेको तीन
+                                                            अन्तरदृष्टि</a></h5>
+                                                    <div>
+                                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="news-item d-flex">
+                                                <figure class="news-image">
+                                                    <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                                </figure>
+                                                <div class="news-content">
+                                                    <h5><a href="/" class="news-title">कोभिड-१९ महामारीको एक वर्ष र यसले
+                                                            प्रदान
+                                                            गरेको तीन
+                                                            अन्तरदृष्टि</a></h5>
+                                                    <div>
+                                                        <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="block-header">
+                                    <h2><a href="#">फोटो फिचर</a></h2>
+                                </div>
+                                <div class="block-body">
+                                    <div class="row slider">
+                                        <div class="col-sm-12 col-md-3">
+                                            <div class="card">
+                                                <img height="200px" src="./assets/image/b.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-3">
+                                            <div class="card">
+                                                <img height="200px" src="./assets/image/b.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-3">
+                                            <div class="card">
+                                                <img height="200px" src="./assets/image/b.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-3">
+                                            <div class="card">
+                                                <img height="200px" src="./assets/image/b.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                            <div>
+                                <div class="block-header">
+                                    <h2><a href="#"> साहित्य</a></h2>
+                                </div>
+                                <div class="block-body">
+                                    <div class="news-item d-flex">
+                                        <figure class="news-image" style="border-radius: 100%; overflow: hidden;">
+                                            <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                        </figure>
+                                        <div class="news-content">
+                                            <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                    गरेको
+                                                    तीन अन्तरदृष्टि</a>
+                                            </h5>
+                                            <div>
+                                                <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                               
+                                    <div class="news-item d-flex">
+                                        <figure class="news-image" style="border-radius: 100%; overflow: hidden;">
+                                            <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                        </figure>
+                                        <div class="news-content">
+                                            <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                    गरेको
+                                                    तीन अन्तरदृष्टि</a>
+                                            </h5>
+                                            <div>
+                                                <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div>
+                                <div class="block-header">
+                                    <h2><a href="#"> सूचना प्रविधि</a></h2>
+                                </div>
+                                <div class="block-body">
+                                    <div style="background-color: #f4f4fc;">
+                                        <div class="feature-img">
+                                            <figure>
+                                                <a href="">
+                                                    <img width="100%" src="./assets/image/hig.png" alt="">
+                                                </a>
+                                            </figure>
+                                        </div>
+
+                                        <h5><a href="#" class="news-title">हिमाल र सूर्योदय हेर्न बेलढुङ्गा</a></h5>
+
+                                        <a href="#" class="news-author">डिल्ली पाण्डे - काठमाडाै‌ं</a>
+
+                                    </div>
+                                    <div class="news-item d-flex">
+                                        <figure class="news-image" style="border-radius: 100%; overflow: hidden;">
+                                            <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                        </figure>
+                                        <div class="news-content">
+                                            <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                    गरेको
+                                                    तीन अन्तरदृष्टि</a>
+                                            </h5>
+                                            <div>
+                                                <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="news-item d-flex">
+                                        <figure class="news-image" style="border-radius: 100%; overflow: hidden;">
+                                            <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                        </figure>
+                                        <div class="news-content">
+                                            <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                    गरेको
+                                                    तीन अन्तरदृष्टि</a>
+                                            </h5>
+                                            <div>
+                                                <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="news-item d-flex">
+                                        <figure class="news-image" style="border-radius: 100%; overflow: hidden;">
+                                            <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                        </figure>
+                                        <div class="news-content">
+                                            <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                    गरेको
+                                                    तीन अन्तरदृष्टि</a>
+                                            </h5>
+                                            <div>
+                                                <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="news-item d-flex">
+                                        <figure class="news-image" style="border-radius: 100%; overflow: hidden;">
+                                            <a href="/"><img src="./assets/image/n.jpg" alt=""></a>
+                                        </figure>
+                                        <div class="news-content">
+                                            <h5><a class="news-title" href="/">कोभिड-१९ महामारीको एक वर्ष र यसले प्रदान
+                                                    गरेको
+                                                    तीन अन्तरदृष्टि</a>
+                                            </h5>
+                                            <div>
+                                                <a href="" class="news-author">देशसञ्चार - काठमाडाै‌ं</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </section>
+
+
+    </div>
+    </div>
+
+    <!-- page-footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12  col-md-3 col-lg-3">
+                    <div class="footer-logo">
+                        <a href="/"><img width="55px" src="./assets/image/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <h5 class="footer-header">अन्य संस्करण</h5>
+                    <ul>
+                        <li><a href="">नेपाली</a></li>
+                        <li><a href="">English</a></li>
+                        <li><a href="">Hindi</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <h5 class="footer-header">अन्य संस्करण</h5>
+                    <ul>
+                        <li><a href="">नेपाली</a></li>
+                        <li><a href="">English</a></li>
+                        <li><a href="">Hindi</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <h5 class="footer-header">अन्य संस्करण</h5>
+                    <ul>
+                        <li><a href="">नेपाली</a></li>
+                        <li><a href="">English</a></li>
+                        <li><a href="">Hindi</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-end">
+                <h5 style="text-align: center;color: #ddd;">Copyright © 2021 - BL Media. All rights reserved.</h5>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
