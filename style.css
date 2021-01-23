@@ -40,6 +40,9 @@ h5 {
 .row {
   width: 100%;
 }
+.allthree {
+  padding-bottom: 20px;
+}
 .bg-site-color {
   background-color: #ff5e14;
 }
@@ -248,6 +251,97 @@ h5 {
   margin: 0;
   position: relative;
   width: 5em;
+}
+.brand-story {
+  background-color: #939393;
+}
+.video-report .n-myft-ui__button {
+  background-color: #262a33;
+  color: #fff;
+  padding: 3px;
+  margin-right: 6px;
+  font-weight: 600;
+  font-family: MetricWeb, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  /* line-height: 14px; */
+  background-size: 21px 21px;
+  /* min-height: 28px; */
+  min-width: 60px;
+  padding: 6px 8px;
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.15s ease-out,
+    border-color 0.15s ease-out;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-clip: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border: 1px solid #0d7680;
+}
+.video-section__share-wrapper {
+  display: inline-block;
+}
+.video-section__share {
+  vertical-align: middle;
+}
+.o-share {
+  display: inline-block;
+}
+.o-share ul {
+  margin: 0;
+  padding: 0;
+}
+.o-share--small .o-share__action {
+  margin: 0 12px 0 0;
+}
+.o-share__action {
+  box-sizing: border-box;
+  float: left;
+  list-style-type: none;
+  cursor: pointer;
+  line-height: 1;
+}
+.o-share__icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  background-color: #262a33;
+  background-repeat: no-repeat;
+  border: 1px solid #807973;
+  padding: 6px 8px;
+  color: #000;
+  text-decoration: none !important;
+}
+.o-share--small .o-share__icon {
+  margin: 0;
+}
+.o-share--inverse .o-share__icon {
+  color: #fff;
+  border-color: #939599;
+}
+.o-share__icon--twitter:hover {
+  background-color: #1da1f2;
+}
+.o-share__icon--facebook:hover {
+  background-color: #3b579d;
+}
+.o-share__icon--linkdin:hover {
+  background-color: #0077b5;
+}
+.o-share__icon--whatsapp:hover {
+  background-color: #0a5e66;
 }
 
 .news-image img {
