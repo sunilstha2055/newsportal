@@ -374,3 +374,35 @@ h5 {
 .footer-end {
   padding: 20px 0px;
 }
+
+/* carousel */
+
+.carousel-indicators {
+  position: initial !important;
+  bottom: -60px !important;
+  margin-left: 0px !important;
+  width: 100% !important;
+  margin-top: 40px !important;
+}
+.carousel-indicators > li {
+  width: 100px !important;
+  height: 60px !important;
+  margin: 10px !important;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.carousel-indicators > li > img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  margin: 0px !important;
+}
+
+.carousel-fade .carousel-inner .carousel-item {
+  opacity: 0;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
